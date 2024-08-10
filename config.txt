@@ -1,0 +1,38 @@
+[DEFAULT]
+# Cấu hình BOT
+# Vui lòng chỉnh sửa bằng Y hoặc N. Y nghĩa là kích hoạt, N nghĩa là tắt
+# Điều chỉnh các biến khác theo sở thích của bạn
+# Sau khi thay đổi, đừng quên đóng và mở lại bot.py
+
+auto_check_task_list = y
+#Tự động làm nhiệm vụ
+auto_attendance = y
+#Tự động điểm danh
+auto_morse = y
+#Tự động gõ morse ăn combo 1M
+auto_claim_combo = n
+#Tự động mua thẻ ăn combo 5M
+max_card_price = 5000000
+#Giới hạn giá thẻ để mua combo 5M, nếu thẻ combo trên giá này sẽ không mua.
+auto_minigame = y
+#Tự động chơi minigame kiếm key
+auto_upgrade_multitap = y
+# Bật tự động nâng cấp multitap
+lv_upgrade_multitap = 9
+#Level max của multitap sẽ nâng đến
+auto_upgrade_energy = y
+# Bật tự động nâng cấp energy
+lv_upgrade_energy = 9
+#Level max của energy sẽ nâng đến
+auto_upgrade_pph = y
+# Tự động mua thẻ để nâng sản lượng trên 1 giờ
+max_price = 600000
+#Chỉ mua những thẻ có giá này trở xuống
+wait_cooldown = n
+# Chờ để mua thẻ tốt nhất, nếu để Y thì điều chỉnh thời gian chờ của hàng bên dưới
+max_wait_cooldown = 300
+# tính bằng giây
+delay_between_accounts = y
+# có thời gian delay giữa các acc không, nếu để Y thì điều chỉnh thời gian chờ của hàng bên dưới
+max_delay_between_accounts = 15
+# tính bằng giây
